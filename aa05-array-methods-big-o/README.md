@@ -7,22 +7,22 @@ justification for your answer. Assume `arr` is an array of length _n_.
 
 Time complexity: O(1)
 Space complexity: O(1)
-Justification: The code will run n times, making the time complexity O(n) (it will run more, as n grows). The space complexity is O(1) because we have a definite value for how much space the function will take up.
+Justification: The function takes the same amount of time, each time, as the input size is constant, and this produces a linear graph. The space complexity is O(1) because we have a definite value for how much space the function will take up.
 
 [push on MDN][push]
 
 
 ## `arr.pop()`
 
-Time complexity: O(?)
+Time complexity: O(1)
 Space complexity: O(?)
-Justification: _Fill this in_
+Justification: The line produced by running the function is straight. It always does the same operation.
 
 [pop on MDN][pop]
 
 ## `arr.shift()`
 
-Time complexity: O(?)
+Time complexity: O(n)
 Space complexity: O(?)
 Justification: _Fill this in_
 
