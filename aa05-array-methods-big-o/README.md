@@ -5,9 +5,9 @@ justification for your answer. Assume `arr` is an array of length _n_.
 
 ## `arr.push()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(1)
+Space complexity: O(1)
+Justification: The code will run n times, making the time complexity O(n) (it will run more, as n grows). The space complexity is O(1) because we have a definite value for how much space the function will take up.
 
 [push on MDN][push]
 
