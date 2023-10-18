@@ -10,7 +10,7 @@ describe('Dynamic array', () => {
   let noUnshiftSpy = chai.spy.on(Array.prototype, "unshift");
 
   beforeEach(function () {
-    
+
     dynamicArr = new DynamicArray();
 
 
@@ -74,8 +74,9 @@ describe('Dynamic array', () => {
     expect(dynamicArr.data[1]).to.deep.equal(2);
     expect(dynamicArr.data[2]).to.deep.equal(1);
 
+  //  [3,2,1]
+
     expect(noUnshiftSpy).to.have.not.been.called()
   });
 
 });
-
